@@ -3,9 +3,10 @@
    "private": false,
    "license": "MIT",
    "scripts": {
-      "build": "npm run build:client && npm run build:server",
+      "build": "npm run build:client && npm run build:server && npm run build:node",
       "build:client": "vite build --ssrManifest --outDir dist/client",
       "build:server": "vite build --ssr src/app/entry-server.tsx --outDir dist/server",
+      "build:node": "tsc -p tsconfig.server.json",
       "start": "cross-env NODE_ENV=production node ./server.ts",
       "lint": "eslint src/**/*.{js,jsx,ts,tsx}"
    },

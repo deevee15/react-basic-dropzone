@@ -63,7 +63,7 @@ const Main = () => {
     return (
         <div className="content">
           <div className="w-full">
-            <h1 className="text-4xl font-bold text-hermgreen-800 text-center">React Dropzone Library</h1>
+            <h1 className="text-4xl font-bold text-fruitgreen-800 text-center">React Dropzone Library</h1>
             <div className="w-lg mx-auto">
                 <Dropzone 
                     upload={upload} 
