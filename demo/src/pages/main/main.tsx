@@ -1,7 +1,6 @@
 import { RefObject } from 'react'
 //ui
-import Dropzone from '@/dz/dropzone'
-import { UploadCbProps } from "@/dz/types"
+import { Dropzone, DropzoneProps } from 'react-basic-dropzone'
 //
 import axios from 'axios'
 import { AxiosError, AxiosProgressEvent } from 'axios'
