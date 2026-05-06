@@ -1,0 +1,66 @@
+{
+   "name": "dropzone-lib",
+   "private": false,
+   "license": "MIT",
+   "scripts": {
+      "build": "npm run build:client && npm run build:server",
+      "build:client": "vite build --ssrManifest --outDir dist/client",
+      "build:server": "vite build --ssr src/app/entry-server.tsx --outDir dist/server",
+      "start": "cross-env NODE_ENV=production node ./server.ts",
+      "lint": "eslint src/**/*.{js,jsx,ts,tsx}"
+   },
+   "dependencies": {
+      "@sveltejs/vite-plugin-svelte": "^6.2.1",
+      "@tailwindcss/vite": "^4.2.0",
+      "@vitejs/plugin-react": "^5.1.0",
+      "axios": "^1.8.3",
+      "compression": "^1.8.1",
+      "cross-env": "^10.1.0",
+      "dotenv": "^17.2.3",
+      "eslint-plugin-security": "^3.0.1",
+      "express": "^5.1.0",
+      "express-rate-limit": "^8.2.1",
+      "multiformats": "^13.4.1",
+      "normalize.css": "^8.0.1",
+      "npx": "^10.2.2",
+      "path": "^0.12.7",
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0",
+      "react-router": "^6.22.3",
+      "react-router-dom": "^6.22.3",
+      "sass": "^1.93.3",
+      "sirv": "^3.0.2",
+      "svg-url-loader": "^8.0.0",
+      "tailwindcss": "^4.2.0",
+      "universal-cookie": "^8.0.1",
+      "vite": "^7.2.2",
+      "vite-plugin-svgr": "^4.5.0",
+      "web-vitals": "^2.1.4"
+   },
+   "devDependencies": {
+      "@eslint/js": "^9.39.1",
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "@typescript-eslint/eslint-plugin": "^8.56.1",
+      "@typescript-eslint/parser": "^8.56.1",
+      "eslint": "^9.39.1",
+      "eslint-plugin-react": "^7.37.5",
+      "eslint-plugin-react-hooks": "^7.0.1",
+      "globals": "^16.5.0",
+      "sass-embedded": "^1.93.3",
+      "tsx": "^4.21.0",
+      "typescript": "^5.9.3"
+   },
+   "browserslist": {
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ],
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ]
+   }
+}

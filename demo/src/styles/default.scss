@@ -1,0 +1,44 @@
+//colors
+    $main: #006a4d;
+    $grey: #A6AEBB;
+    $darkGrey: #32363B;
+    $borderGrey: #E2E8F2;
+    $white: #FEFEFE;
+    $error: #DF1B1B;
+    $red: #F45E5E;
+    $exitColor: #E0F2EE;
+
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin-block: 0;
+    padding-inline: 0;
+    overflow: hidden;
+    background: url(../assets/images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+.heading{
+    background: linear-gradient(180deg, rgba(148, 148, 148, .9) 0, rgba(71, 71, 71, .9) 20%, rgba(19, 19, 19, .9) 40%, rgba(7, 7, 7, .93) 100%);
+    border-right: 1px solid #4e4e4e;
+    border-left: 1px solid #4e4e4e;
+    border-top: 2px solid #4e4e4e;
+    border-radius: 24px 24px 0 0;
+    padding: 15px 10px 13px 30px;
+    backdrop-filter: blur(1px) saturate(150%);
+    box-shadow: rgba(0, 0, 0, .25) 0 14px 28px, rgba(0, 0, 0, .22) 0 10px 10px;
+}
+button{
+    background: linear-gradient(to bottom, #fff 0, #82f577 3%, #32912a 40%, #185815 55%, #0b3112 55%, #1a5c1e 100%);
+    font-weight: 400;
+    &:hover{
+        background: linear-gradient(to bottom,#fff 0,#9efd96 3%,#32912a 40%,#185815 55%,#0b3112 55%,#47e951 100%);
+    }
+}
+
+.content {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
