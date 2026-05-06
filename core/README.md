@@ -1,9 +1,9 @@
 # React Basic Dropzone
 
-<!-- [![npm version](https://img.shields.io/npm/v/react-basic-dropzone.svg)](https://www.npmjs.com/package/react-basic-dropzone)
+[![npm version](https://img.shields.io/npm/v/react-basic-dropzone.svg)](https://www.npmjs.com/package/react-basic-dropzone)
 [![npm downloads](https://img.shields.io/npm/dm/react-basic-dropzone.svg)](https://www.npmjs.com/package/react-basic-dropzone)
 [![CI](https://github.com/deevee15/react-basic-dropzone/actions/workflows/ci.yml/badge.svg)](https://github.com/deevee15/react-basic-dropzone/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 React Basic Dropzone is React library for files uploading via drag&drop or by click in a dropzone area.
 
