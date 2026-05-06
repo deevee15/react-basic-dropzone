@@ -7,7 +7,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
     plugins: [
         react(),
-        dts({ rollupTypes: true }),
+        dts({ bundleTypes: true }),
     ],
     test: {
         globals: true,
